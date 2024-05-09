@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T10:23:18.484Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="jbbbGr9osx6sw4AwOBuG" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-09T03:37:46.212Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Jey6kz35p04_W3lnzC-H" version="24.3.1" type="github">
   <diagram name="第 1 页" id="Pp-75ZngFEsOOak7LyUB">
     <mxGraphModel dx="2874" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
           <mxGeometry y="60" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CNc3Xjs3FIzdw5K3xw-y-32" value="SsdFile" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-515" y="1490" width="310" height="150" as="geometry" />
+          <mxGeometry x="-515" y="1560" width="310" height="150" as="geometry" />
         </mxCell>
         <mxCell id="CNc3Xjs3FIzdw5K3xw-y-33" value="- entries_: F14FastMap&lt;FileCacheKey, SsdRun&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="CNc3Xjs3FIzdw5K3xw-y-32" vertex="1">
           <mxGeometry y="26" width="310" height="34" as="geometry" />
@@ -334,12 +334,6 @@
             <mxPoint x="720" y="1470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CNc3Xjs3FIzdw5K3xw-y-91" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" source="CNc3Xjs3FIzdw5K3xw-y-28" target="CNc3Xjs3FIzdw5K3xw-y-32" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-290" y="1820" as="sourcePoint" />
-            <mxPoint x="-130" y="1820" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="CNc3Xjs3FIzdw5K3xw-y-92" value="MmapAllocator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="-570" y="1065" width="160" height="60" as="geometry" />
         </mxCell>
@@ -500,6 +494,26 @@
         </mxCell>
         <mxCell id="0E9ScUnDs6IQsSlavntW-29" value="&lt;b&gt;velox&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1400" y="596" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9ScUnDs6IQsSlavntW-30" value="contains" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CNc3Xjs3FIzdw5K3xw-y-28" target="CNc3Xjs3FIzdw5K3xw-y-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="1383.5" as="sourcePoint" />
+            <mxPoint x="-150" y="1746.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-360" y="1430" />
+              <mxPoint x="-360" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0E9ScUnDs6IQsSlavntW-31" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="0E9ScUnDs6IQsSlavntW-30">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-10" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0E9ScUnDs6IQsSlavntW-32" value="1...N" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="0E9ScUnDs6IQsSlavntW-30">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint y="-40" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
